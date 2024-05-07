@@ -9,5 +9,11 @@
         ["Servings", "1"]
     ],
     "ingredients": ["Lettuce", "Cheese", "Tomato", "Hamburger", "pickles"],
-    "directions": ["Cook buns", "Burn patties", "Eat cheese", "Yummy burger"]
+    "directions": ["Cook buns", "Burn patties", "Eat cheese", "Yummy burger"],
+    "nutritionFacts": [
+        ["Calories", "10"],
+        ["Carbs", "10"],
+        ["Fat", "10"],
+        ["Protein", "10"]
+    ]
 }

@@ -16,5 +16,11 @@
         "Eat fuck",
         "Slap a bitch",
         "Pee on a bush"
+    ],
+    "nutritionFacts": [
+        ["Calories", "10"],
+        ["Carbs", "10"],
+        ["Fat", "10"],
+        ["Protein", "10"]
     ]
 }

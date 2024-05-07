@@ -16,6 +16,7 @@ function RecipeTemplate(props) {
             <InfoBox infos={data.information} />
             <Ingredients ingredients={data.ingredients} />
             <Directions directions={data.directions} />
+            <NutritionalFacts nutri={data.nutritionFacts} />
         </>
     );
 }
@@ -79,12 +80,16 @@ function Directions(props) {
 }
 
 function NutritionalFacts(props) {
+    var nutritionList = props.nutri.map((nutri) => (
+        <div>
+            {nutri[0]}: {nutri[1]}
+        </div>
+    ));
+
     return (
         <>
-            <div>Prep Time: {props.prepTime}</div>
-            <div>Cook Time: {props.cookTime}</div>
-            <div>Total Time: {props.totalTime}</div>
-            <div>Servings Time: {props.servings}</div>
+            <h2>Nutritional Facts</h2>
+            <div>{nutritionList}</div>
         </>
     );
 }
