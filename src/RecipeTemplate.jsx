@@ -2,9 +2,11 @@ import React from "react";
 import "./index.css";
 import "./recipe.css";
 
+var json;
+
 function RecipeTemplate(props) {
     var data = props.data;
-    console.log(data);
+    json = props.json;
     return (
         <>
             <Intro
@@ -13,6 +15,7 @@ function RecipeTemplate(props) {
                 par={data.description}
             />
             <Bookmark />
+            <UnBookmark />
             <InfoBox infos={data.information} />
             <Ingredients ingredients={data.ingredients} />
             <Directions directions={data.directions} />
@@ -32,11 +35,29 @@ function Intro(props) {
 }
 
 function Bookmark() {
-    return <button onClick={addFavorites}>Add to Favorites</button>;
+    return (
+        <button id="bookmark" onClick={addFavorites}>
+            Add to Favorites
+        </button>
+    );
+}
+
+function UnBookmark() {
+    return (
+        <button id="unbookmark" onClick={removeFavorites}>
+            Remove from Favorites
+        </button>
+    );
 }
 
 function addFavorites() {
-    //add to favorites code
+    document.cookie = json;
+    //bookmark.onClick = removeFavorites;
+    //bookmark.text = "Remove Favorites";
+}
+
+function removeFavorites() {
+    document.cookie = json + "; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
 }
 
 function InfoBox(props) {
