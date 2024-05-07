@@ -20,15 +20,15 @@ function recipeTiles() {
   );
 }
 
-function recipeTile(props) {
+function RecipeTile(props) {
   return (
     <figure>
       <p>
-        <a href={html}>
-          <img src={image}></img>
+        <a href={props.html}>
+          <img src={props.image}></img>
         </a>
       </p>
-      <figcaption>{title}</figcaption>
+      <figcaption>{props.title}</figcaption>
     </figure>
   );
 }

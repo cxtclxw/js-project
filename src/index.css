@@ -23,6 +23,7 @@ footer {
   padding: 1em;
   display: block;
   height: 40px;
+  user-select: none;
 }
 
 #copy {
