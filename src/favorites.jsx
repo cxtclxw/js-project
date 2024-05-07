@@ -7,6 +7,7 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
         <Header />
+        <h1>Favorites</h1>
         <div>{document.cookie}</div>
         <Footer />
     </React.StrictMode>
