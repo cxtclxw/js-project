@@ -13,6 +13,42 @@
   border: 50px #828282;
 }
 
+footer {
+  text-align: center;
+  width: 74.3%;
+  font-style: italic;
+  font-size: 0.75em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  display: block;
+  height: 40px;
+}
+
+#copy {
+  font-weight: bold;
+  float: right;
+  padding: 0.2em;
+}
+
+#contact {
+  font-weight: bold;
+  float: left;
+  padding: 0.2em;
+}
+
+#hidden {
+  display: none;
+  float: center;
+  padding: 0.3em;
+}
+
+#contact:hover + #hidden {
+  display: block;
+  color: black;
+  font-weight: bold;
+}
+
 #logo {
   text-align: left;
   padding: 1em;
