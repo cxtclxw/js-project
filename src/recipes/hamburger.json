@@ -1,0 +1,13 @@
+{
+    "title": "Hamburger",
+    "author": "Layne",
+    "description": "My favorite hamburger.",
+    "information": [
+        ["Prep Time", "10 mins"],
+        ["Cook Time", "40 mins"],
+        ["Total Time", "50 mins"],
+        ["Servings", "1"]
+    ],
+    "ingredients": ["Lettuce", "Cheese", "Tomato", "Hamburger", "pickles"],
+    "directions": ["Cook buns", "Burn patties", "Eat cheese", "Yummy burger"]
+}
