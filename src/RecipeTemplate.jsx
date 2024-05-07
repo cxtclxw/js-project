@@ -1,18 +1,21 @@
 import React from "react";
 import "./index.css";
+import "./recipe.css";
 
 function RecipeTemplate(props) {
+    var data = props.data;
+    console.log(data);
     return (
         <>
-            <Intro title={props.title} author={props.author} par={props.par} />
-            <Bookmark />
-            <InfoBox
-                prepTime={props.prepTime}
-                cookTime={props.cookTime}
-                totalTime={props.totalTime}
-                servings={props.servings}
+            <Intro
+                title={data.title}
+                author={data.author}
+                par={data.description}
             />
-            <Ingredients ingredients={props.ingredients} />
+            <Bookmark />
+            <InfoBox infos={data.information} />
+            <Ingredients ingredients={data.ingredients} />
+            <Directions directions={data.directions} />
         </>
     );
 }
@@ -36,12 +39,15 @@ function addFavorites() {
 }
 
 function InfoBox(props) {
+    var infoList = props.infos.map((info) => (
+        <div>
+            {info[0]}: {info[1]}
+        </div>
+    ));
+
     return (
         <>
-            <div>Prep Time: {props.prepTime}</div>
-            <div>Cook Time: {props.cookTime}</div>
-            <div>Total Time: {props.totalTime}</div>
-            <div>Servings Time: {props.servings}</div>
+            <div>{infoList} </div>
         </>
     );
 }
@@ -55,6 +61,30 @@ function Ingredients(props) {
         <>
             <h2>Ingredients</h2>
             <ul>{ingredientsList}</ul>
+        </>
+    );
+}
+
+function Directions(props) {
+    var directionsList = props.directions.map((direction) => (
+        <li>{direction}</li>
+    ));
+
+    return (
+        <>
+            <h2>Directions</h2>
+            <ol>{directionsList}</ol>
+        </>
+    );
+}
+
+function NutritionalFacts(props) {
+    return (
+        <>
+            <div>Prep Time: {props.prepTime}</div>
+            <div>Cook Time: {props.cookTime}</div>
+            <div>Total Time: {props.totalTime}</div>
+            <div>Servings Time: {props.servings}</div>
         </>
     );
 }
