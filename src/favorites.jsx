@@ -9,21 +9,28 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
         <Header />
-        <h1>Favorites</h1>
-        <Favorites />
+        <main>
+            <h1>Favorites</h1>
+            <Favorites />
+        </main>
         <Footer />
     </React.StrictMode>
 );
 
 function Favorites() {
     var favorites = getFavoritesList();
-    console.log(favorites);
     //Shows a link to the recipes that have been favorited
     var favoritesList = favorites.map((recipe) => (
         <div>
             <RecipeTile key={getJsonData(recipe).title} json={recipe} />
         </div>
     ));
+
+    console.log(favorites);
+    if (favorites == "") {
+        favoritesList = "You don't have any favorite recipes...";
+    }
+
     return <div className="recipetilesContainer">{favoritesList}</div>;
 }
 

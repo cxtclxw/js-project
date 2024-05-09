@@ -1,38 +1,39 @@
 {
-  "title": "Yoshi's Starfruit Summer Salad",
-  "author": "Andy",
-  "description": "A refreshing salad made with star fruit accompanied by a light mustard dressing, with tiny bread 'eggs'.",
-  "information": [
-    ["Prep Time", "10 mins"],
-    ["Total Time", "50 mins"],
-    ["Servings", "2"]
-  ],
-  "ingredients": [
-    "1 star fruit",
-    "100g lettuce",
-    "100g arugula",
-    "1 Avocado",
-    "1/4 cup feta cheese",
-    "FOR THE DRESSING:",
-    "2 tablespoons olive oil",
-    "1 tablespoon honey",
-    "1 tablespoon apple cider vinegar",
-    "1 tablespoon dijon mustard",
-    "Salt and pepper to taste"
-  ],
-  "directions": [
-    "In a small jar with a lid, combine the olive oil, honey, apple cider vinegar, Dijon mustard, salt, and black pepper. Cover and shake until mixed well.",
-    "Toss the sliced star fruits, lettuce, arugula, red onion, avocado, and pecans together in a large bowl. Add the Dijon mustard dressing and toss again. Then top with the crumbled feta. Toss lightly and serve immediately.",
-    "Enjoy!"
-  ],
-  "nutritionFacts": [
-    ["Calories", "490"],
-    ["Carbs", "29g"],
-    ["Fat", "40g"],
-    ["Protein", "9g"],
-    ["Sugar", "17g"],
-    ["Sodium", "735mg"]
-  ],
-  "html": "recipe2.html",
-  "image": "/src/images/recipe2.png"
+    "title": "Yoshi's Starfruit Summer Salad",
+    "author": "Andy",
+    "date": "May 9, 2024",
+    "description": "A refreshing salad made with star fruit accompanied by a light mustard dressing, with tiny bread 'eggs'.",
+    "information": [
+        ["Prep Time", "10 mins"],
+        ["Total Time", "50 mins"],
+        ["Servings", "2"]
+    ],
+    "ingredients": [
+        "1 star fruit",
+        "100g lettuce",
+        "100g arugula",
+        "1 Avocado",
+        "1/4 cup feta cheese",
+        "FOR THE DRESSING:",
+        "2 tablespoons olive oil",
+        "1 tablespoon honey",
+        "1 tablespoon apple cider vinegar",
+        "1 tablespoon dijon mustard",
+        "Salt and pepper to taste"
+    ],
+    "directions": [
+        "In a small jar with a lid, combine the olive oil, honey, apple cider vinegar, Dijon mustard, salt, and black pepper. Cover and shake until mixed well.",
+        "Toss the sliced star fruits, lettuce, arugula, red onion, avocado, and pecans together in a large bowl. Add the Dijon mustard dressing and toss again. Then top with the crumbled feta. Toss lightly and serve immediately.",
+        "Enjoy!"
+    ],
+    "nutritionFacts": [
+        ["Calories", "490"],
+        ["Carbs", "29g"],
+        ["Fat", "40g"],
+        ["Protein", "9g"],
+        ["Sugar", "17g"],
+        ["Sodium", "735mg"]
+    ],
+    "html": "recipe2.html",
+    "image": "/src/images/recipe2.png"
 }

@@ -6,13 +6,19 @@ import About from "./About.jsx";
 import "./index.css";
 
 function App() {
-  return (
-    <div>
-      <Header />
-      <About />
-      <Footer />
-    </div>
-  );
+    return (
+        <div>
+            <Header />
+            <main>
+                <About />
+            </main>
+            <Footer />
+        </div>
+    );
 }
 
-ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+ReactDOM.createRoot(document.getElementById("root")).render(
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>
+);

@@ -5,8 +5,12 @@ import "./index.css";
 function RecipeTiles() {
     return (
         <div className="recipetilesContainer">
-            <RecipeTile json="/src/recipes/cheeseburger.json" />
-            <RecipeTile json="/src/recipes/salad.json" />
+            <div>
+                <RecipeTile json="/src/recipes/cheeseburger.json" />
+            </div>
+            <div>
+                <RecipeTile json="/src/recipes/salad.json" />
+            </div>
         </div>
     );
 }
@@ -19,7 +23,9 @@ export function RecipeTile(props) {
         <figure className="recipe-tile">
             <p>
                 <a href={html}>
-                    <img src={image}></img>
+                    <div className="imgContainer">
+                        <img src={image}></img>
+                    </div>
                 </a>
             </p>
             <figcaption>{title}</figcaption>

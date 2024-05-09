@@ -1,101 +1,149 @@
-* {
-  box-sizing: border-box;
-  font-family: "Times New Roman", Times, serif;
+body {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 1200px;
+    background-color: lightsalmon;
 }
+
+* {
+    color: rgb(44, 44, 44);
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+}
+
+main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
 html {
-  background-color: salmon;
+    background-color: salmon;
 }
 #header {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: lightsalmon;
-  min-width: 1200px;
-  max-width: 1480px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: black;
+    min-width: 1200px;
+    max-width: 1480px;
+    border: 50px #828282;
 }
 
 footer {
-  text-align: center;
-  width: 74.3%;
-  font-style: italic;
-  font-size: 0.75em;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em;
-  display: block;
-  height: 40px;
-  user-select: none;
+    text-align: center;
+    width: 74.3%;
+    font-style: italic;
+    font-size: 0.75em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    display: block;
+    height: 40px;
+    user-select: none;
 }
 
 #copy {
-  font-weight: bold;
-  float: right;
-  padding: 0.2em;
+    font-weight: bold;
+    float: right;
+    padding: 0.2em;
 }
 
 #contact {
-  font-weight: bold;
-  float: left;
-  padding: 0.2em;
+    font-weight: bold;
+    float: left;
+    padding: 0.2em;
 }
 
 #hidden {
-  display: none;
-  float: center;
-  padding: 0.3em;
+    display: none;
+    float: center;
+    padding: 0.3em;
 }
 
 #contact:hover + #hidden {
-  display: block;
-  color: black;
-  font-weight: bold;
+    display: block;
+    color: black;
+    font-weight: bold;
 }
 
 #logo {
-  text-align: left;
-  padding: 1em;
+    text-align: left;
+    padding: 1em;
 }
 
 #btnCont {
-  padding-left: 1em;
-  padding: 1.9em;
-  width: 19.5%;
-  float: right;
+    padding-left: 1em;
+    padding: 1.9em;
+    width: 19.5%;
+    float: right;
 }
 
 #buttons {
-  text-align: center;
-  color: white;
-  text-decoration: none;
-  background-color: black;
-  border: 3px solid #ff6161;
-  display: inline-block;
-  padding: 0.5em;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border: 3px solid #ff6161;
+    display: inline-block;
+    padding: 0.5em;
 }
 
 figcaption {
-  border: 5px black;
+    border: 5px black;
+}
+
+.aboutPar {
+    width: 500px;
 }
 
 .recipetilesContainer {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  max-width: 1200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 1200px;
+}
+
+.recipetilesContainer > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .recipe-tile {
-  text-align: center;
+    max-width: 50%;
+    text-align: center;
+    background-color: rgb(231, 231, 231);
+    border-radius: 30px;
 }
 
 .recipe-tile img {
-  max-width: 50%;
+    max-width: 100%;
 }
 
 #about {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.imgContainer {
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.imgContainer > img {
+    outline: 10px solid rgb(231, 231, 231);
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }

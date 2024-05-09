@@ -1,35 +1,50 @@
-body {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1200px;
-  background-color: lightsalmon;
-  padding-left: 50px;
-  padding-right: 50px;
+.wrapper {
+    margin: 30px;
 }
 
-#header {
-  min-width: 1145px;
-  max-width: 1200px;
+.container {
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 235, 120);
+    border-radius: 1rem;
+    width: 500px;
+    padding: 50px;
+}
+
+.column {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pale {
+    color: rgb(83, 80, 81);
+}
+
+.imgContainer {
+    margin: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.imgContainer > img {
+    outline: 10px solid rgb(231, 231, 231);
+    border-radius: 50px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    margin-left: 1rem;
 }
 
 ul li {
-  padding: 5px;
-  width: 250px;
-}
-
-img {
-  max-width: 300px;
-  float: right;
-}
-
-ol li {
-  padding: 5px;
-}
-
-div {
-  padding: 3px;
-}
-
-html {
-  background-color: salmon;
+    padding: 5px;
+    width: 250px;
 }
