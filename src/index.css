@@ -92,3 +92,9 @@ figcaption {
 .recipe-tile img {
   max-width: 50%;
 }
+
+#about {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
