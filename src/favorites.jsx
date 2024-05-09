@@ -18,6 +18,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 function Favorites() {
     var favorites = getFavoritesList();
 
+    //Shows a link to the recipes that have been favorited
     var favoritesList = favorites.map((recipe) => (
         <div key={getJsonData(recipe).title}>
             <a href={getJsonData(recipe).html}>{getJsonData(recipe).title}</a>
@@ -26,6 +27,7 @@ function Favorites() {
     return <>{favoritesList}</>;
 }
 
+//Decodes the cookies into an array and returns it
 function getFavoritesList() {
     let decodedCookie = decodeURIComponent(document.cookie);
     let ca = decodedCookie.split(";");

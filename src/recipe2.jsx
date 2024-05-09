@@ -1,5 +1,4 @@
-var json = "src/recipes/salad.json";
-
+const JSON = "src/recipes/salad.json";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import RecipeTemplate from "./recipeTemplate.jsx";
@@ -11,7 +10,7 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
         <Header />
-        <RecipeTemplate data={data} json={json} />
+        <RecipeTemplate data={data} json={JSON} />
         <Footer />
     </React.StrictMode>
 );

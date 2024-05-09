@@ -17,8 +17,8 @@ function Bookmark(props) {
     const [bText, setBText] = useState(initText);
     const [added, setAdded] = useState(initAdded);
 
+    //Toggles if the Recipe is added or not
     const toggleFavorites = () => {
-        console.log(added);
         if (added) {
             setBText(textValues[0]);
             setAdded(false);
@@ -38,6 +38,7 @@ function Bookmark(props) {
     );
 }
 
+//Returns whether a cookie exists with the name entered
 function hasCookie(name) {
     let decodedCookie = decodeURIComponent(document.cookie);
     let ca = decodedCookie.split(";");

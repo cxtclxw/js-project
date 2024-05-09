@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+//returns json information as an array
 export function getJsonData(json) {
     let [Jdata, setJData] = useState([]);
 
