@@ -1,21 +1,21 @@
 {
-    "title": "Mr. MutherFucking Mario Cheesrburgere",
-    "author": "Layne",
-    "description": "My favorite hamburger.",
-    "information": [
-        ["Prep Time", "10 mins"],
-        ["Cook Time", "40 mins"],
-        ["Total Time", "50 mins"],
-        ["Servings", "1"]
-    ],
-    "ingredients": ["Lettuce", "Cheese", "Tomato", "Hamburger", "pickles"],
-    "directions": ["Cook buns", "Burn patties", "Eat cheese", "Yummy burger"],
-    "nutritionFacts": [
-        ["Calories", "10"],
-        ["Carbs", "10"],
-        ["Fat", "10"],
-        ["Protein", "10"]
-    ],
-    "html": "recipe1.html",
-    "image": "../images/recipe1.png"
+  "title": "Deluxe Mario Bros. Burger",
+  "author": "Layne",
+  "description": "My favorite hamburger.",
+  "information": [
+    ["Prep Time", "10 mins"],
+    ["Cook Time", "40 mins"],
+    ["Total Time", "50 mins"],
+    ["Servings", "1"]
+  ],
+  "ingredients": ["Lettuce", "Cheese", "Tomato", "Hamburger", "pickles"],
+  "directions": ["Cook buns", "Burn patties", "Eat cheese", "Yummy burger"],
+  "nutritionFacts": [
+    ["Calories", "10"],
+    ["Carbs", "10"],
+    ["Fat", "10"],
+    ["Protein", "10"]
+  ],
+  "html": "recipe1.html",
+  "image": "../images/recipe1.png"
 }

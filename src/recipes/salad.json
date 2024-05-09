@@ -1,28 +1,28 @@
 {
-    "title": "Starfruit Summer Salad with Yoshi Eggs",
-    "author": "Andy",
-    "description": "our whole universe was in a hot dense state",
-    "information": [
-        ["Prep Time", "10 mins"],
-        ["Cook Time", "40 mins"],
-        ["Total Time", "50 mins"],
-        ["Servings", "10"],
-        ["Shit Time", "10"]
-    ],
-    "ingredients": ["Lettuce", "Cheese", "Tomato", "Hamburger", "pickles"],
-    "directions": [
-        "Eat shit",
-        "Poop fuck",
-        "Eat fuck",
-        "Slap a bitch",
-        "Pee on a bush"
-    ],
-    "nutritionFacts": [
-        ["Calories", "10"],
-        ["Carbs", "10"],
-        ["Fat", "10"],
-        ["Protein", "10"]
-    ],
-    "html": "recipe2.html",
-    "image": "../images/recipe2.png"
+  "title": "Yoshi's Starfruit Summer Salad",
+  "author": "Andy",
+  "description": "our whole universe was in a hot dense state",
+  "information": [
+    ["Prep Time", "10 mins"],
+    ["Cook Time", "40 mins"],
+    ["Total Time", "50 mins"],
+    ["Servings", "10"],
+    ["Shit Time", "10"]
+  ],
+  "ingredients": ["Lettuce", "Cheese", "Tomato", "Hamburger", "pickles"],
+  "directions": [
+    "Eat shit",
+    "Poop fuck",
+    "Eat fuck",
+    "Slap a bitch",
+    "Pee on a bush"
+  ],
+  "nutritionFacts": [
+    ["Calories", "10"],
+    ["Carbs", "10"],
+    ["Fat", "10"],
+    ["Protein", "10"]
+  ],
+  "html": "recipe2.html",
+  "image": "../images/recipe2.png"
 }

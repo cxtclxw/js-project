@@ -5,10 +5,14 @@ import Footer from "./Footer.jsx";
 import RecipeTiles from "./recipeTiles.jsx";
 import "./index.css";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <Header />
-    <RecipeTiles />
-    <Footer />
-  </React.StrictMode>
-);
+function App() {
+  return (
+    <div>
+      <Header />
+      <RecipeTiles />
+      <Footer />
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
