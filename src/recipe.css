@@ -12,7 +12,17 @@ body {
   max-width: 1200px;
 }
 
-li {
+ul li {
+  padding: 5px;
+  width: 250px;
+}
+
+img {
+  max-width: 300px;
+  float: right;
+}
+
+ol li {
   padding: 5px;
 }
 
