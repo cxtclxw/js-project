@@ -1,27 +1,37 @@
 {
   "title": "Yoshi's Starfruit Summer Salad",
   "author": "Andy",
-  "description": "our whole universe was in a hot dense state",
+  "description": "A refreshing salad made with star fruit accompanied by a light mustard dressing, with tiny bread 'eggs'.",
   "information": [
     ["Prep Time", "10 mins"],
-    ["Cook Time", "40 mins"],
     ["Total Time", "50 mins"],
-    ["Servings", "10"],
-    ["Shit Time", "10"]
+    ["Servings", "2"]
   ],
-  "ingredients": ["Lettuce", "Cheese", "Tomato", "Hamburger", "pickles"],
+  "ingredients": [
+    "1 star fruit",
+    "100g lettuce",
+    "100g arugula",
+    "1 Avocado",
+    "1/4 cup feta cheese",
+    "FOR THE DRESSING:",
+    "2 tablespoons olive oil",
+    "1 tablespoon honey",
+    "1 tablespoon apple cider vinegar",
+    "1 tablespoon dijon mustard",
+    "Salt and pepper to taste"
+  ],
   "directions": [
-    "Eat shit",
-    "Poop fuck",
-    "Eat fuck",
-    "Slap a bitch",
-    "Pee on a bush"
+    "In a small jar with a lid, combine the olive oil, honey, apple cider vinegar, Dijon mustard, salt, and black pepper. Cover and shake until mixed well.",
+    "Toss the sliced star fruits, lettuce, arugula, red onion, avocado, and pecans together in a large bowl. Add the Dijon mustard dressing and toss again. Then top with the crumbled feta. Toss lightly and serve immediately.",
+    "Enjoy!"
   ],
   "nutritionFacts": [
-    ["Calories", "10"],
-    ["Carbs", "10"],
-    ["Fat", "10"],
-    ["Protein", "10"]
+    ["Calories", "490"],
+    ["Carbs", "29g"],
+    ["Fat", "40g"],
+    ["Protein", "9g"],
+    ["Sugar", "17g"],
+    ["Sodium", "735mg"]
   ],
   "html": "recipe2.html",
   "image": "../images/recipe2.png"
