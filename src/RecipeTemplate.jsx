@@ -29,7 +29,7 @@ function Intro(props) {
     return (
         <>
             <h1>{props.title}</h1>
-            <div>{props.author}</div>
+            <div>By {props.author}</div>
             <p>{props.par}</p>
         </>
     );

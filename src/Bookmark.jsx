@@ -23,11 +23,12 @@ function Bookmark(props) {
             setBText(textValues[0]);
             setAdded(false);
             document.cookie =
-                props.json + "; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+                props.json +
+                "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
         } else {
             setBText(textValues[1]);
             setAdded(true);
-            document.cookie = props.json;
+            document.cookie = props.json + "=";
         }
     };
 

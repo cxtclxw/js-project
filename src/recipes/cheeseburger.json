@@ -1,48 +1,48 @@
 {
-  "title": "Deluxe Mario Bros. Burger",
-  "author": "Layne",
-  "description": "My favorite hamburger.",
-  "information": [
-    ["Prep Time", "10 mins"],
-    ["Cook Time", "25 mins"],
-    ["Total Time", "35 mins"],
-    ["Servings", "4"]
-  ],
-  "ingredients": [
-    "8 slices regular bacon",
-    "1/4 cup mayonnaise",
-    "1 tablespoon ketchup",
-    "2 teaspoons sweet pickle relish",
-    "1/2 head of lettuce",
-    "1 large tomato",
-    "4 burger buns",
-    "2 tablespoon mustard",
-    "1 pound lean ground beef",
-    "1 1/2 teaspoons salt",
-    "1 teaspoon pepper",
-    "2 tablespoons oil",
-    "4 slices of cheese"
-  ],
-  "directions": [
-    "Arrange a rack in the middle of the oven and heat the oven to 400ºF. Line a rimmed baking sheet with aluminum foil. Arrange 8 bacon slices in a single layer on the foil. Bake until browned and crisp, 19 to 20 minutes.",
-    "Meanwhile, prepare the toppings and cook the burger patties. Place 1/4 cup mayonnaise, 1 tablespoon ketchup, and 2 teaspoons sweet pickle relish in a small bowl and stir to combine.",
-    "Remove the leaves from 1/2 medium head iceberg lettuce until you have 8 burger-sized leaves. Using a serrated knife, slice 1 beefsteak tomato crosswise into 4 slices. Split 4 hamburger buns and spread 2 tablespoons yellow mustard on the cut sides of the top buns, evenly spreading it to the edges.",
-    "Divide 1 pound ground chuck into 4 portions, then form each portion into a ball. Press each ball, and season well with salt and pepper.",
-    "Heat 1 tablespoon of the vegetable oil in a large cast iron skillet (at least 12 inches wide) or griddle over medium-high heat until shimmering. (If using a smaller skillet, cook the buns and burgers in 2 batches.) Tilt the pan so the oil coats the bottom. Place the mustard buns in the pan mustard-side down, gently press down on them, and cook until toasty and browned in spots, 2 minutes. Transfer to a plate.",
-    "Place the bottom buns cut-side down in the pan and cook until golden brown and toasted, 45 seconds to 1 minute. Transfer to the plate with the mustard buns. Reserve the pan.",
-    "Heat the remaining 1 tablespoon vegetable oil in the pan over medium-high heat until shimmering. Tilt the pan to coat the bottom with oil. Add the burger patties (cook in 2 batches if needed) and press on each patty with the back of a flat spatula. Cook until the bottoms are deeply browned and the patty is halfway cooked, about 2 1/2 minutes. Flip the burgers and place 1 slice of cheese on each patty. Cook for 2 to 2 1/2 minutes more, depending on desired burger doneness.",
-    "Transfer to a plate and let rest for 5 minutes. Meanwhile, spread the mayonnaise mixture on the cut sides of the bottom buns, spreading to the edges.",
-    "Assemble the burgers: Place a patty on each bottom bun. Top each patty with 4 bacon pieces, 1 tomato slice, 2 lettuce leaves, and the top bun."
-  ],
-  "nutritionFacts": [
-    ["Calories", "740"],
-    ["Fat", "52g"],
-    ["Carbs", "30g"],
-    ["Fiber", "2g"],
-    ["Sugar", "6g"],
-    ["Protein", "41g"],
-    ["Sodium", "1100mg"]
-  ],
-  "html": "recipe1.html",
-  "image": "../images/recipe1.png"
+    "title": "Deluxe Mario Bros. Burger",
+    "author": "Layne",
+    "description": "My favorite hamburger.",
+    "information": [
+        ["Prep Time", "10 mins"],
+        ["Cook Time", "25 mins"],
+        ["Total Time", "35 mins"],
+        ["Servings", "4"]
+    ],
+    "ingredients": [
+        "8 slices regular bacon",
+        "1/4 cup mayonnaise",
+        "1 tablespoon ketchup",
+        "2 teaspoons sweet pickle relish",
+        "1/2 head of lettuce",
+        "1 large tomato",
+        "4 burger buns",
+        "2 tablespoon mustard",
+        "1 pound lean ground beef",
+        "1 1/2 teaspoons salt",
+        "1 teaspoon pepper",
+        "2 tablespoons oil",
+        "4 slices of cheese"
+    ],
+    "directions": [
+        "Arrange a rack in the middle of the oven and heat the oven to 400ºF. Line a rimmed baking sheet with aluminum foil. Arrange 8 bacon slices in a single layer on the foil. Bake until browned and crisp, 19 to 20 minutes.",
+        "Meanwhile, prepare the toppings and cook the burger patties. Place 1/4 cup mayonnaise, 1 tablespoon ketchup, and 2 teaspoons sweet pickle relish in a small bowl and stir to combine.",
+        "Remove the leaves from 1/2 medium head iceberg lettuce until you have 8 burger-sized leaves. Using a serrated knife, slice 1 beefsteak tomato crosswise into 4 slices. Split 4 hamburger buns and spread 2 tablespoons yellow mustard on the cut sides of the top buns, evenly spreading it to the edges.",
+        "Divide 1 pound ground chuck into 4 portions, then form each portion into a ball. Press each ball, and season well with salt and pepper.",
+        "Heat 1 tablespoon of the vegetable oil in a large cast iron skillet (at least 12 inches wide) or griddle over medium-high heat until shimmering. (If using a smaller skillet, cook the buns and burgers in 2 batches.) Tilt the pan so the oil coats the bottom. Place the mustard buns in the pan mustard-side down, gently press down on them, and cook until toasty and browned in spots, 2 minutes. Transfer to a plate.",
+        "Place the bottom buns cut-side down in the pan and cook until golden brown and toasted, 45 seconds to 1 minute. Transfer to the plate with the mustard buns. Reserve the pan.",
+        "Heat the remaining 1 tablespoon vegetable oil in the pan over medium-high heat until shimmering. Tilt the pan to coat the bottom with oil. Add the burger patties (cook in 2 batches if needed) and press on each patty with the back of a flat spatula. Cook until the bottoms are deeply browned and the patty is halfway cooked, about 2 1/2 minutes. Flip the burgers and place 1 slice of cheese on each patty. Cook for 2 to 2 1/2 minutes more, depending on desired burger doneness.",
+        "Transfer to a plate and let rest for 5 minutes. Meanwhile, spread the mayonnaise mixture on the cut sides of the bottom buns, spreading to the edges.",
+        "Assemble the burgers: Place a patty on each bottom bun. Top each patty with 4 bacon pieces, 1 tomato slice, 2 lettuce leaves, and the top bun."
+    ],
+    "nutritionFacts": [
+        ["Calories", "740"],
+        ["Fat", "52g"],
+        ["Carbs", "30g"],
+        ["Fiber", "2g"],
+        ["Sugar", "6g"],
+        ["Protein", "41g"],
+        ["Sodium", "1100mg"]
+    ],
+    "html": "recipe1.html",
+    "image": "/src/images/recipe1.png"
 }

@@ -1,37 +1,31 @@
 import React from "react";
+import { getJsonData } from "./getJsonData";
 import "./index.css";
-import recipe1Image from "./images/recipe1.png"; //burgur
-import recipe2Image from "./images/recipe2.png"; //salod
 
 function RecipeTiles() {
-  return (
-    <div className="recipetilesContainer">
-      <RecipeTile
-        html="recipe1.html"
-        image={recipe1Image}
-        title="Deluxe Mario Bros. Burger"
-      />
+    return (
+        <div className="recipetilesContainer">
+            <RecipeTile json="/src/recipes/cheeseburger.json" />
 
-      <RecipeTile
-        html="recipe2.html"
-        image={recipe2Image}
-        title="Yoshi's Starfruit Summer Salad"
-      />
-    </div>
-  );
+            <RecipeTile json="/src/recipes/salad.json" />
+        </div>
+    );
 }
 
-function RecipeTile(props) {
-  return (
-    <figure className="recipe-tile">
-      <p>
-        <a href={props.html}>
-          <img src={props.image}></img>
-        </a>
-      </p>
-      <figcaption>{props.title}</figcaption>
-    </figure>
-  );
+export function RecipeTile(props) {
+    let html = getJsonData(props.json).html;
+    let image = getJsonData(props.json).image;
+    let title = getJsonData(props.json).title;
+    return (
+        <figure className="recipe-tile">
+            <p>
+                <a href={html}>
+                    <img src={image}></img>
+                </a>
+            </p>
+            <figcaption>{title}</figcaption>
+        </figure>
+    );
 }
 
 export default RecipeTiles;
