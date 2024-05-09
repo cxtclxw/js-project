@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 //returns json information as an array
+//use the absolute path for the json (example: src/recipes/cheeseburger.json)
 export function getJsonData(json) {
     let [Jdata, setJData] = useState([]);
 
