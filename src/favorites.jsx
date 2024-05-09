@@ -20,11 +20,11 @@ function Favorites() {
     console.log(favorites);
     //Shows a link to the recipes that have been favorited
     var favoritesList = favorites.map((recipe) => (
-        <div key={getJsonData(recipe).title} className="recipetilesContainer">
-            <RecipeTile json={recipe} />
+        <div>
+            <RecipeTile key={getJsonData(recipe).title} json={recipe} />
         </div>
     ));
-    return <>{favoritesList}</>;
+    return <div className="recipetilesContainer">{favoritesList}</div>;
 }
 
 //Decodes the cookies into an array and returns it

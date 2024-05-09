@@ -6,7 +6,6 @@ function RecipeTiles() {
     return (
         <div className="recipetilesContainer">
             <RecipeTile json="/src/recipes/cheeseburger.json" />
-
             <RecipeTile json="/src/recipes/salad.json" />
         </div>
     );
