@@ -1,5 +1,5 @@
 {
-    "title": "Fudge",
+    "title": "Starfruit Summer Salad with Yoshi Eggs",
     "author": "Andy",
     "description": "our whole universe was in a hot dense state",
     "information": [
@@ -22,5 +22,7 @@
         ["Carbs", "10"],
         ["Fat", "10"],
         ["Protein", "10"]
-    ]
+    ],
+    "html": "recipe2.html",
+    "image": "../images/recipe2.png"
 }

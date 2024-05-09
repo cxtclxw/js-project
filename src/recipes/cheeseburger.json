@@ -1,5 +1,5 @@
 {
-    "title": "Hamburger",
+    "title": "Mr. MutherFucking Mario Cheesrburgere",
     "author": "Layne",
     "description": "My favorite hamburger.",
     "information": [
@@ -15,5 +15,7 @@
         ["Carbs", "10"],
         ["Fat", "10"],
         ["Protein", "10"]
-    ]
+    ],
+    "html": "recipe1.html",
+    "image": "../images/recipe1.png"
 }

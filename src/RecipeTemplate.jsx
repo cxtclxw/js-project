@@ -1,25 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
+import Bookmark from "./Bookmark.jsx";
 import "./index.css";
 import "./recipe.css";
 
-var json;
-
 function RecipeTemplate(props) {
-    var data = props.data;
-    json = props.json;
+    let json = props.json;
+    let data = props.data;
     return (
         <>
             <Intro
-                title={data.title}
-                author={data.author}
-                par={data.description}
+                title={data["title"]}
+                author={data["author"]}
+                par={data["description"]}
             />
-            <Bookmark />
-            <UnBookmark />
-            <InfoBox infos={data.information} />
-            <Ingredients ingredients={data.ingredients} />
-            <Directions directions={data.directions} />
-            <NutritionalFacts nutri={data.nutritionFacts} />
+            <Bookmark json={json} />
+            <InfoBox infos={data["information"]} />
+            <Ingredients ingredients={data["ingredients"]} />
+            <Directions directions={data["directions"]} />
+            <NutritionalFacts nutri={data["nutritionFacts"]} />
         </>
     );
 }
@@ -34,35 +32,9 @@ function Intro(props) {
     );
 }
 
-function Bookmark() {
-    return (
-        <button id="bookmark" onClick={addFavorites}>
-            Add to Favorites
-        </button>
-    );
-}
-
-function UnBookmark() {
-    return (
-        <button id="unbookmark" onClick={removeFavorites}>
-            Remove from Favorites
-        </button>
-    );
-}
-
-function addFavorites() {
-    document.cookie = json;
-    //bookmark.onClick = removeFavorites;
-    //bookmark.text = "Remove Favorites";
-}
-
-function removeFavorites() {
-    document.cookie = json + "; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-}
-
 function InfoBox(props) {
-    var infoList = props.infos.map((info) => (
-        <div>
+    let infoList = props.infos.map((info) => (
+        <div key={info[0]}>
             {info[0]}: {info[1]}
         </div>
     ));
@@ -75,8 +47,8 @@ function InfoBox(props) {
 }
 
 function Ingredients(props) {
-    var ingredientsList = props.ingredients.map((ingredient) => (
-        <li>{ingredient}</li>
+    let ingredientsList = props.ingredients.map((ingredient) => (
+        <li key={ingredient}>{ingredient}</li>
     ));
 
     return (
@@ -88,8 +60,8 @@ function Ingredients(props) {
 }
 
 function Directions(props) {
-    var directionsList = props.directions.map((direction) => (
-        <li>{direction}</li>
+    let directionsList = props.directions.map((direction) => (
+        <li key={direction}>{direction}</li>
     ));
 
     return (
@@ -101,8 +73,8 @@ function Directions(props) {
 }
 
 function NutritionalFacts(props) {
-    var nutritionList = props.nutri.map((nutri) => (
-        <div>
+    let nutritionList = props.nutri.map((nutri) => (
+        <div key={nutri[0]}>
             {nutri[0]}: {nutri[1]}
         </div>
     ));
