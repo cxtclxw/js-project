@@ -1,0 +1,25 @@
+body {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+  background-color: lightsalmon;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#header {
+  min-width: 1145px;
+  max-width: 1200px;
+}
+
+li {
+  padding: 5px;
+}
+
+div {
+  padding: 3px;
+}
+
+html {
+  background-color: salmon;
+}

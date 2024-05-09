@@ -2,15 +2,16 @@
   box-sizing: border-box;
   font-family: "Times New Roman", Times, serif;
 }
-
+html {
+  background-color: salmon;
+}
 #header {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  background-color: black;
+  background-color: lightsalmon;
   min-width: 1200px;
   max-width: 1480px;
-  border: 50px #828282;
 }
 
 footer {
